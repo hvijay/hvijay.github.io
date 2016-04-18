@@ -1,0 +1,133 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" /> 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30482746-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<title>
+	Hayawardh Vijayakumar - PennState CSE
+</title>
+</head>
+
+<body>
+<div id = "full">
+<div class = "header">
+<div class = "name"> Hayawardh Vijayakumar </div>
+<br />
+<div class = "links">
+	<a href="index.html"> Home </a> | 
+	<a href="publications.html"> Publications </a> |
+	<a href="vitae.html"> Vitae </a> |
+	<a href="teaching.html"> Teaching </a> |
+	<a href="contact.html"> Contact </a>
+</div>
+</div>
+<div class = "main">
+<!--
+<hr class="flare" />
+
+<p><b> NOTE: </b> I have defended my PhD dissertation in Computer Science and Engineering at Penn State. I am on the lookout for jobs in both industry and academia. I have a strong inclination towards building real-world systems with visible utility. <br>
+<br>
+Here are my application materials: <br>
+
+<ul>
+<li> <a href="files/research.pdf"> Research Statement </a> </li>
+<li> <a href="files/teaching.pdf"> Teaching Statement </a> </li>
+<li> <a href="files/hayawardh-vijayakumar-vita.pdf"> CV </a> </li>
+</ul>
+<br>
+</p>
+
+<hr class="flare" />
+-->
+
+<img src="files/picture.jpg" width="200" align="right" style="padding:  .5em;">  
+<p>
+Welcome! I am a Security Research Engineer in the <a
+href="https://www.samsungknox.com/en">Samsung KNOX</a> security team at Samsung
+Research America.  My broad interests are in computer systems and security. 
+
+I obtained a PhD in Computer Science and Engineering at Penn State. My PhD
+dissertation looked at programs' interaction with the system they are deployed
+in, and how mismatches between program expectations of a system and the reality
+in the system can affect security.  My PhD advisor was <a href =
+"http://www.cse.psu.edu/~tjaeger"> Dr. Trent Jaeger</a>.  I also have worked on
+infrastructures for providing transparent verification of the cloud, ARM
+TrustZone-based kernel runtime monitoring, and analyzing security policies at
+multiple layers for mediation and consistency properties. 
+
+For more details, please see summaries below and my <a
+href="publications.html"> publications </a> page. 
+
+</p>
+
+<p>
+<!--
+I completed my undergraduate studies in Computer Science and Engineering at <a href = "http://svce.ac.in"> Sri Venkateswara College of Engineering, </a> Chennai, India. <br>
+-->
+</p>
+<!-- Our paper <i>STING: Finding Name Resolution Vulnerabilities in Programs</i> (PDF forthcoming) has been accepted in USENIX Security 2012. <br> -->
+<p> 
+<ul>
+<li>
+Our USENIX 2014 paper <i>JIGSAW: Protecting Resource Access by Inferring
+Programmer Expectations</i> proposes a principled way to generate Process
+Firewall rules to block resource access vulnerabilities. The intuition behind
+rule generation is to infer programmer intentions using special \emph{filters}
+they place in code to handle untrusted input and matching this intent with the
+system configuration. A video of my presentation can be found <a
+href=https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/vijaykumar>
+here</a>.  <br>
+
+<li> 
+Our Eurosys 2013 paper <i> Process Firewalls: Protecting Processes During
+Resource Access </i> (<a href="files/papers/vsj_2013_eurosys.pdf">PDF</a>) proposes a
+defense against attacks caused due to programs fetching improper resources from
+the OS.  Resources are managed by the OS, but current system call APIs do not
+allow programs to sufficiently express their constraints during resource
+access.  In addition, current system call APIs for resource access are
+complicated and inefficient. The Process Firewall is an extensible framework
+(motivated by the network firewall) that uses rules to protect processes during
+resource access. We show how the Process Firewall defends attacks without
+requiring program code changes, and how it is more efficient than program
+defenses. <br>
+
+<li>
+Our USENIX Security 2012 paper <i>STING: Finding Name Resolution
+Vulnerabilities in Programs</i> (<a
+href="files/papers/vsj_2012_usenixsec.pdf">PDF</a>) proposes a novel
+system-based black-box testing approach to find name resolution
+vulnerabilities in programs by simulating adversarial actions on the
+namespace, based on the insight that the system is the vector for such
+vulnerabilities.  A video of my presentation can be found <a
+href=https://www.usenix.org/conference/usenixsecurity12/sting-finding-name-resolution-vulnerabilities-programs>
+here</a>. <br> 
+
+<li>
+Our  ASIACCS 2012 paper <i>Integrity Walls: Finding Attack Surfaces from
+Mandatory Access Control Policies</i> (<a
+href="files/papers/vjr_2012_asiaccs.pdf">PDF</a>) shows how accurate location
+of attack surfaces of programs requires program entry points to be considered
+in relation to system access control policies. <br>
+
+<li>
+Our EC2ND 2011 paper <i>A Rose by Any Other Name or an Insane Root? Adventures
+in Name Resolution</i> (<a href="files/papers/vsj_2011_ec2nd.pdf">PDF</a>)
+categorises attacks possible due to adversarial control of system namespaces
+that are not expected by programs. 
+</ul>
+
+</div>
+</div>
+</body>
+</html>

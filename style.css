@@ -1,0 +1,109 @@
+/* universal */
+
+body {
+	background-color: white;
+	font-family: verdana;
+}
+
+a:link {text-decoration: none; font-weight: bold}
+a:visited {text-decoration: none; font-weight: bold}
+a:active {text-decoration: none; font-weight: bold}
+a:hover {text-decoration: none; color: red; font-weight: bold}
+
+#full {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.main {
+	margin-bottom: 40px;
+}
+
+
+/* header */
+
+.name {
+	background-color: blue;
+	color: white;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+/* publications_div.html styles */
+.note {
+
+}
+
+.entry {
+	padding-top: 5px;  
+      padding-bottom: 5px;  
+      padding-right: 5px;  
+      padding-left: 30px;  
+      /* border: 1px solid; */
+}
+
+.number {
+	font-weight: bold;
+}
+
+.for_author {
+	font-weight: bold;
+}
+
+.bibtex_entry {
+	background-color: silver; 
+	padding-top: 10px;  
+	padding-bottom: 10px;  
+	padding-right: 10px;  
+	padding-left: 10px;  
+	border: 1px solid;
+	font-family: courier;
+	font-size: x-small; 
+}
+
+.abstract_entry {
+	background-color: silver; 
+	padding-top: 10px;  
+      padding-bottom: 10px;  
+      padding-right: 10px;  
+      padding-left: 30px;  
+      border: 1px solid;
+      font-size: medium;
+}
+
+.title_entry {
+	font-weight: bold;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.booktitle {
+	font-style: italic;
+}
+
+hr.flare {
+    height: 50px;
+    border-style: ridge;
+    border-color: #900;
+    border-width: 2px 0 0 0;
+    border-radius: 45px;
+}
+hr.flare:before {
+    display: block;
+    content: "";
+    height: 50px;
+    margin-top: -51px;
+    border-style: ridge;
+    border-color: #900;
+    border-width: 0 0 2px 0;
+    border-radius: 45px;
+}
+
