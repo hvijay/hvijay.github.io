@@ -10,6 +10,12 @@ a:visited {text-decoration: none; font-weight: bold}
 a:active {text-decoration: none; font-weight: bold}
 a:hover {text-decoration: none; color: red; font-weight: bold}
 
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
 #full {
 	width: 800px;
 	margin-left: auto;
@@ -25,6 +31,10 @@ a:hover {text-decoration: none; color: red; font-weight: bold}
 	margin-bottom: 40px;
 }
 
+.highlight {
+	color: red;
+	font-weight: bold;
+}
 
 /* header */
 
@@ -42,14 +52,19 @@ a:hover {text-decoration: none; color: red; font-weight: bold}
 
 .entry {
 	padding-top: 5px;  
-      padding-bottom: 5px;  
-      padding-right: 5px;  
-      padding-left: 30px;  
-      /* border: 1px solid; */
+	padding-bottom: 5px;  
+	padding-right: 5px;  
+	padding-left: 30px;  
+	/* border: 1px solid; */
 }
 
 .number {
 	font-weight: bold;
+}
+
+.conf_id {
+	font-weight: bold;
+	color: red;
 }
 
 .for_author {
@@ -58,7 +73,7 @@ a:hover {text-decoration: none; color: red; font-weight: bold}
 
 .bibtex_entry {
 	background-color: silver; 
-	padding-top: 10px;  
+	padding-top: 10px;	
 	padding-bottom: 10px;  
 	padding-right: 10px;  
 	padding-left: 10px;  
@@ -69,12 +84,12 @@ a:hover {text-decoration: none; color: red; font-weight: bold}
 
 .abstract_entry {
 	background-color: silver; 
-	padding-top: 10px;  
-      padding-bottom: 10px;  
-      padding-right: 10px;  
-      padding-left: 30px;  
-      border: 1px solid;
-      font-size: medium;
+	padding-top: 10px;	
+	padding-bottom: 10px;  
+	padding-right: 10px;	
+	padding-left: 30px;  
+	border: 1px solid;
+	font-size: medium;
 }
 
 .title_entry {
@@ -90,20 +105,20 @@ a:hover {text-decoration: none; color: red; font-weight: bold}
 }
 
 hr.flare {
-    height: 50px;
-    border-style: ridge;
-    border-color: #900;
-    border-width: 2px 0 0 0;
-    border-radius: 45px;
+	height: 50px;
+	border-style: ridge;
+	border-color: #900;
+	border-width: 2px 0 0 0;
+	border-radius: 45px;
 }
 hr.flare:before {
-    display: block;
-    content: "";
-    height: 50px;
-    margin-top: -51px;
-    border-style: ridge;
-    border-color: #900;
-    border-width: 0 0 2px 0;
-    border-radius: 45px;
+	display: block;
+	content: "";
+	height: 50px;
+	margin-top: -51px;
+	border-style: ridge;
+	border-color: #900;
+	border-width: 0 0 2px 0;
+	border-radius: 45px;
 }
 
